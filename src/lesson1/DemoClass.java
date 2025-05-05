@@ -48,7 +48,7 @@ public class DemoClass {
         // b1.setBalance1("glen0711","withdraw", 3000);
         // int myBalanc4 = b1.getBalance1();
         // System.out.println("您的餘額:" + myBalanc4);
-        
+
         /*
          * 課程練習 請大家修改可以變更account
          * 一樣要注意需比對原帳號 正確才能做修正
@@ -57,7 +57,7 @@ public class DemoClass {
         // 修改帳號
         // b1.setAccount("glen0711", "glen07");
         // System.out.println(b1.getAccount());
-        
+
         // // 修改帳號後用舊帳號測試
         // b1.setBalance1("glen0711","deposit", 1000);
         // int myBalanc5 = b1.getBalance1();
@@ -67,7 +67,6 @@ public class DemoClass {
         // b1.setBalance1("glen07","deposit", 1000);
         // int myBalanc6 = b1.getBalance1();
         // System.out.println("您的餘額:" + myBalanc6);
-
 
         /*
          * 課程練習 請命名一個類別Student
@@ -85,11 +84,9 @@ public class DemoClass {
         // stu1.setScore(80);
         // System.out.println(stu1.getName() + " 修改成功之分數: " + stu1.getScore());
 
-
-
         /*
-        * 多載介紹(Overload)
-        */
+         * 多載介紹(Overload)
+         */
 
         // Printer p1 = new Printer();
         // p1.show();
@@ -111,7 +108,6 @@ public class DemoClass {
         // a1.cal("長", 3, 2);
         // a1.cal("正", 3, 3);
 
-
         /*
          * package 呼叫
          */
@@ -122,17 +118,19 @@ public class DemoClass {
 
         /*
          * 課堂練習:
-         * 請大家在lesson1 產生以下 路徑資料夾  lesson1 > homework > traning
-         * 在traning 內放 Employee 類別 
-         * Employee 請用 getter setter 存取 name 
+         * 請大家在lesson1 產生以下 路徑資料夾 lesson1 > homework > traning
+         * 在traning 內放 Employee 類別
+         * Employee 請用 getter setter 存取 name
          * 最後在DemoClass 實作一個 Employee 物件 且印出 getName()
          */
 
-        lesson1.homework.traning.Employee e1 = new lesson1.homework.traning.Employee("E1");
-        System.out.println(e1.getName());
+        // lesson1.homework.traning.Employee e1 = new
+        // lesson1.homework.traning.Employee("E1");
+        // System.out.println(e1.getName());
 
-        Employee e2 = new Employee("E2");
-        System.out.println(e2.getName());
+        // Employee e2 = new Employee("E2");
+        // System.out.println(e2.getName());
+
     }
 
 }
